@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shubh\\source\\repos\\dotnet-repo\\BookListRazor\\BookListRazor.csproj": {}
+    "C:\\Users\\shubh\\source\\repos\\shubham-demp\\BookListRazor\\BookListRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shubh\\source\\repos\\dotnet-repo\\BookListRazor\\BookListRazor.csproj": {
+    "C:\\Users\\shubh\\source\\repos\\shubham-demp\\BookListRazor\\BookListRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shubh\\source\\repos\\dotnet-repo\\BookListRazor\\BookListRazor.csproj",
+        "projectUniqueName": "C:\\Users\\shubh\\source\\repos\\shubham-demp\\BookListRazor\\BookListRazor.csproj",
         "projectName": "BookListRazor",
-        "projectPath": "C:\\Users\\shubh\\source\\repos\\dotnet-repo\\BookListRazor\\BookListRazor.csproj",
+        "projectPath": "C:\\Users\\shubh\\source\\repos\\shubham-demp\\BookListRazor\\BookListRazor.csproj",
         "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shubh\\source\\repos\\dotnet-repo\\BookListRazor\\obj\\",
+        "outputPath": "C:\\Users\\shubh\\source\\repos\\shubham-demp\\BookListRazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,6 +69,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.9, 3.1.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -78,6 +84,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
