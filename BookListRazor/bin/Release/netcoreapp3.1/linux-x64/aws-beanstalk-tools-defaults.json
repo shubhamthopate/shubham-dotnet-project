@@ -1,0 +1,20 @@
+
+{
+    "region" : "ap-south-1",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "BookListRazor123",
+    "environment"    : "BookListRazor123-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0f37366f\";\"aws:ec2:vpc,Subnets\"=\"subnet-b752facc\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.1.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "booklistrazor123-dev",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "beanstalk-key",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "none"
+}
